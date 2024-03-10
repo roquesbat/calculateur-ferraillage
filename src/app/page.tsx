@@ -343,7 +343,7 @@ export default function Home() {
         <h1>Calcul de ferraillage</h1>
         <div className="mb-3 row">
           <label className="col-sm-5 col-form-label">
-            Prix de l'acier à la tonne
+            {"Prix de l'acier à la tonne"}
           </label>
           <div className="col-8 col-sm-5">
             <input
@@ -357,7 +357,7 @@ export default function Home() {
           <div className="col-4 col-sm-2 col-form-label">€/t</div>
         </div>
         <div className="mb-3 row">
-          <label className="col-sm-5 col-form-label">Section d'aciers</label>
+          <label className="col-sm-5 col-form-label">{"Section d'aciers"}</label>
           <div className="col-8 col-sm-5">
             <input
               type="number"
@@ -397,7 +397,7 @@ export default function Home() {
         </div>
         <div className="mb-3 row">
           <label className="col-sm-5 col-form-label">
-            Longueur de l'ouvrage
+            {"Longueur de l'ouvrage"}
           </label>
           <div className="col-8 col-sm-5">
             <input
